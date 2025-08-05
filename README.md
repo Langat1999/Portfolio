@@ -16,15 +16,8 @@ Desktop view.
 <img width="1014" height="672" alt="snip" src="https://github.com/user-attachments/assets/5c442ea9-62d3-4e68-8524-e86fa0929ce9" />
 
 Mobile view.
-
-<img width="500" height="100" alt="Capture" src="https://github.com/user-attachments/assets/2658f93f-8785-49ba-a25b-b3e123bba52c" /> 
-![1](https://github.com/user-attachments/assets/ea501d4b-e30d-4044-b944-4613b1b08c88)
-![8](https://github.com/user-attachments/assets/086c8b58-c360-4fbd-9518-5469957c4932)
-![7](https://github.com/user-attachments/assets/591bef74-e26b-4b2d-9a56-85b8591b47bd)
-![6](https://github.com/user-attachments/assets/5f00df04-6e1e-4b74-a08b-efb074f3115f)
-![5](https://github.com/user-attachments/assets/24370614-569c-4c8d-afad-8f977cab5996)
-![4](https://github.com/user-attachments/assets/e3833a0c-d922-4583-bbe8-845dd062de22)
-![3](https://github.com/user-attachments/assets/dcd890fd-d655-4b7a-9777-1a8f4521fcc6)
+![1](https://github.com/user-attachments/assets/573d9637-6e9d-4c29-9279-301f2352bfa4)
+![7](https://github.com/user-attachments/assets/90d4be92-9275-4383-b026-203c7cbfe918)
 
 ---
 
