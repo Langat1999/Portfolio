@@ -16,15 +16,15 @@ Desktop view.
 <img width="1014" height="672" alt="snip" src="https://github.com/user-attachments/assets/5c442ea9-62d3-4e68-8524-e86fa0929ce9" />
 
 Mobile view.
-![WhatsApp Image 2025-08-05 at 17 19 46 (3)](https://github.com/user-attachments/assets/9774dd03-67ae-406e-b7e5-1e6ace1c63c6)
-![WhatsApp Image 2025-08-05 at 17 19 46 (2)](https://github.com/user-attachments/assets/6779eb87-cc5b-4292-b435-149a3e4d8224)
-![WhatsApp Image 2025-08-05 at 17 19 46 (1)](https://github.com/user-attachments/assets/949c9481-201f-4a18-813f-fcd011902a90)
-![WhatsApp Image 2025-08-05 at 17 19 46](https://github.com/user-attachments/assets/136cfaa0-b8dd-40b8-ac24-7f6bc529fe0a)
-![WhatsApp Image 2025-08-05 at 17 19 45 (3)](https://github.com/user-attachments/assets/7a9e7783-4353-4aab-9bc6-ad32a70d2e00)
-![WhatsApp Image 2025-08-05 at 17 19 45 (2)](https://github.com/user-attachments/assets/9029f868-7175-4d41-8192-d3eaaaebde1c)
-![WhatsApp Image 2025-08-05 at 17 19 45 (1)](https://github.com/user-attachments/assets/d63bba22-dc72-4d94-87a6-f2a545086f0b)
-![WhatsApp Image 2025-08-05 at 17 19 45](https://github.com/user-attachments/assets/619dbdf6-2e60-4743-bd76-4b9122567be1)
 
+<img width="500" height="100" alt="Capture" src="https://github.com/user-attachments/assets/2658f93f-8785-49ba-a25b-b3e123bba52c" /> 
+![1](https://github.com/user-attachments/assets/ea501d4b-e30d-4044-b944-4613b1b08c88)
+![8](https://github.com/user-attachments/assets/086c8b58-c360-4fbd-9518-5469957c4932)
+![7](https://github.com/user-attachments/assets/591bef74-e26b-4b2d-9a56-85b8591b47bd)
+![6](https://github.com/user-attachments/assets/5f00df04-6e1e-4b74-a08b-efb074f3115f)
+![5](https://github.com/user-attachments/assets/24370614-569c-4c8d-afad-8f977cab5996)
+![4](https://github.com/user-attachments/assets/e3833a0c-d922-4583-bbe8-845dd062de22)
+![3](https://github.com/user-attachments/assets/dcd890fd-d655-4b7a-9777-1a8f4521fcc6)
 
 ---
 
