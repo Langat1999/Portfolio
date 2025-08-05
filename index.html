@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jackson Mutiso Langat | Portfolio</title>
+  <meta name="description"
+    content="Jackson Mutiso Langat's professional portfolio — showcasing web development, design skills, chemistry background, and project experience." />
+  <meta name="keywords"
+    content="Jackson Mutiso, web developer, portfolio, software engineer, front-end developer, chemist, projects, skills, Kenya" />
+  <meta name="author" content="Jackson Mutiso Langat" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Jackson Mutiso Langat | Portfolio" />
+  <meta property="og:description"
+    content="Explore Jackson's web development projects, skills, and scientific background in this interactive and modern portfolio." />
+  <meta property="og:image" content="https://yourdomain.com/attached_assets/preview.jpg" />
+  <meta property="og:url" content="https://yourdomain.com/" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Jackson Mutiso Langat | Portfolio" />
+  <meta name="twitter:description"
+    content="Explore Jackson's portfolio — full of engaging web projects and chemistry expertise." />
+  <meta name="twitter:image" content="https://yourdomain.com/attached_assets/preview.jpg" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="attached_assets/entrepreneur.png" type="image/x-icon" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress" id="scroll-progress"></div>
+
+  <!-- Loading Animation -->
+  <div class="loader" id="loader">
+    <div class="loader-content">
+      <div class="loader-icon">
+        <img src="attached_assets/backhoe-loader.png" alt="Loader Icon" class="loader-machine">
+      </div>
+      <div class="loader-initials">Welcome to Langat's Portfolio</div>
+      <div class="loader-text">Building something amazing...</div>
+    </div>
+  </div>
+
+  <nav class="navbar" id="main-navbar">
+    <div class="nav-container">
+      <a href="#" class="logo">
+        <img src="attached_assets/spiderman.png" alt="Spider-Man Logo" class="logo-icon">
+        <span class="logo-text">Portfolio</span>
+      </a>
+
+      <!-- Main Nav for Desktop and Mobile (toggled) -->
+      <ul class="nav-links main-links" id="nav-links-container">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#timeline" class="nav-link">Timeline</a></li>
+
+        <!-- More Toggle and Dropdown -->
+        <li class="more-wrapper">
+          <button class="more-toggle">More ▾</button>
+          <ul class="more-links">
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#interests" class="nav-link">Interests</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact-form" class="nav-link">Contact</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <button class="menu-toggle" aria-label="Menu" aria-expanded="false" id="menu-toggle-btn">
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+        <span class="menu-bar"></span>
+      </button>
+      <button id="theme-toggle" aria-label="Toggle Dark Mode" class="theme-toggle-btn">
+        <i class="fas fa-moon dark-icon"></i>
+        <i class="fas fa-sun light-icon"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hamburger Menu Overlay -->
+  <div class="hamburger-overlay" id="hamburger-overlay">
+    <div class="hamburger-menu">
+      <button class="close-menu" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul class="hamburger-links">
+        <li><a href="#about" class="hamburger-link">About</a></li>
+        <li><a href="#skills" class="hamburger-link">Skills</a></li>
+        <li><a href="#timeline" class="hamburger-link">Timeline</a></li>
+        <li><a href="#education" class="hamburger-link">Education</a></li>
+        <li><a href="#interests" class="hamburger-link">Interests</a></li>
+        <li><a href="#projects" class="hamburger-link">Projects</a></li>
+        <li><a href="#contact-form" class="hamburger-link">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <header class="hero" id="hero-background" style="position: relative;">
+    <!-- Hero content grid -->
+    <div class="hero-grid">
+      <div class="hero-image">
+        <img src="attached_assets/jack.png" alt="Jackson Mutiso Langat" class="avatar-image fade-in" />
+        <p class="avatar-caption typewriter-caption">Curious mind. Purposeful builder.</p>
+      </div>
+      <div class="hero-text fade-in">
+        <h1 class="animated-text">Jackson Mutiso Langat</h1>
+        <p class="subline">From mineral sands to software stacks — I code with clarity, teach with heart, and build with
+          purpose.</p>
+        <div class="availability-status">
+          <span class="status-indicator available"></span>
+          Available for collaboration
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm a dynamic Laboratory Analyst with over three years of hands-on experience in mineral processing and
+        analysis, excelling in high-stakes environments. I have deep expertise in analytical techniques, QA/QC
+        protocols, and compliance, with a growing passion for software development. My goal is to blend scientific rigor
+        with digital tools to drive impact, clarity, and innovation in everything I build.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Programming Skills</h2>
+      <div class="skills-container">
+        <div class="skill-item fade-in-scroll">
+          <div class="skill-header">
+            <span class="skill-name">Python</span>
+            <span class="skill-percentage">85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-item fade-in-scroll">
+          <div class="skill-header">
+            <span class="skill-name">HTML & CSS</span>
+            <span class="skill-percentage">80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-item fade-in-scroll">
+          <div class="skill-header">
+            <span class="skill-name">SQL</span>
+            <span class="skill-percentage">75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-item fade-in-scroll">
+          <div class="skill-header">
+            <span class="skill-name">JavaScript</span>
+            <span class="skill-percentage">60%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="60"></div>
+          </div>
+        </div>
+
+        <div class="skill-item fade-in-scroll">
+          <div class="skill-header">
+            <span class="skill-name">Laboratory Analysis</span>
+            <span class="skill-percentage">95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" data-width="95"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <h2>Career Journey</h2>
+      <div class="timeline">
+        <div class="timeline-item fade-in-scroll" data-year="2017">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Started University</h3>
+            <p>Began BSc. Industrial Chemistry with Management at Kenyatta University</p>
+            <span class="timeline-date">2017</span>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in-scroll" data-year="2022">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Graduated</h3>
+            <p>Completed degree with strong foundation in analytical chemistry and process control</p>
+            <span class="timeline-date">2022</span>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in-scroll" data-year="2023">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Graduate Trainee</h3>
+            <p>Started at Base Titanium Ltd, rotating across labs, plant, and safety teams</p>
+            <span class="timeline-date">2023</span>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in-scroll" data-year="2024">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Laboratory Analyst</h3>
+            <p>Promoted to lead mineral testing using XRF, Fusion, and wet chemistry</p>
+            <span class="timeline-date">2024</span>
+          </div>
+        </div>
+
+        <div class="timeline-item fade-in-scroll" data-year="2025">
+          <div class="timeline-marker active"></div>
+          <div class="timeline-content">
+            <h3>Software Development Journey</h3>
+            <p>Currently training in full-stack development, blending science with technology</p>
+            <span class="timeline-date">2025</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Educational Background</h2>
+      <div class="education-grid">
+        <div class="education-item fade-in-scroll">
+          <h3>Kenyatta University (2017 – 2022)</h3>
+          <p><strong>BSc. Industrial Chemistry with Management</strong></p>
+          <p>Gained foundation in chemical analysis, process control, and management. Key coursework includes Analytical
+            Chemistry, Industrial Process Control, and Environmental Chemistry.</p>
+        </div>
+
+        <div class="education-item fade-in-scroll">
+          <h3>Lulu High School, Kwale (2013 – 2016)</h3>
+          <p><strong>KCSE, Grade: B+</strong></p>
+          <p>Top marks in Math, Chemistry & Physics.</p>
+        </div>
+      </div>
+
+      <p><a href="attached_assets/JACKSON MUTISO.pdf" class="cta-btn" download>Download Full CV</a></p>
+    </section>
+
+    <section id="interests">
+      <h2>Professional Interests & Hobbies</h2>
+      <div class="interests-grid">
+        <div class="interest-item fade-in-scroll">
+          <div class="interest-icon">🧠</div>
+          <h3>Coding & Logic</h3>
+          <p>Exploring coding and logic-building through Python and HTML</p>
+        </div>
+
+        <div class="interest-item fade-in-scroll">
+          <div class="interest-icon">📝</div>
+          <h3>Writing & Poetry</h3>
+          <p>Writing and reading poetry to express ideas and sharpen communication</p>
+        </div>
+
+        <div class="interest-item fade-in-scroll">
+          <div class="interest-icon">🧩</div>
+          <h3>Problem Solving</h3>
+          <p>Solving puzzles and riddles for critical thinking</p>
+        </div>
+
+        <div class="interest-item fade-in-scroll">
+          <div class="interest-icon">🌐</div>
+          <h3>Networking</h3>
+          <p>Connecting with others in tech and science to share knowledge</p>
+        </div>
+
+        <div class="interest-item fade-in-scroll">
+          <div class="interest-icon">📈</div>
+          <h3>Lab Automation</h3>
+          <p>Passionate about lab automation and scientific software tools</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects & Experience</h2>
+      <div class="projects">
+        <div class="project fade-in-scroll">
+          <div class="project-header">
+            <h3>Base Titanium Ltd – Laboratory Analyst</h3>
+            <span class="project-period">2024–2025</span>
+          </div>
+          <p>Led mineral testing using XRF, Fusion, and wet chemistry. Collaborated across teams to improve recovery and
+            ensure QA/QC standards.</p>
+          <div class="project-tags">
+            <span class="tag">XRF Analysis</span>
+            <span class="tag">Quality Control</span>
+            <span class="tag">Mineral Processing</span>
+          </div>
+        </div>
+
+        <div class="project fade-in-scroll">
+          <div class="project-header">
+            <h3>Base Titanium Ltd – Graduate Trainee</h3>
+            <span class="project-period">2023–2024</span>
+          </div>
+          <p>Rotated across labs, plant, and safety teams. Collected and analyzed data, supported process improvement,
+            and participated in compliance testing.</p>
+          <div class="project-tags">
+            <span class="tag">Data Analysis</span>
+            <span class="tag">Process Improvement</span>
+            <span class="tag">Safety Compliance</span>
+          </div>
+        </div>
+
+        <div class="project fade-in-scroll">
+          <div class="project-header">
+            <h3>PLP Software Training</h3>
+            <span class="project-period">Ongoing</span>
+          </div>
+          <p>Currently training in software development with focus on full-stack tools, user-first design, and
+            collaborative coding.</p>
+          <div class="project-tags">
+            <span class="tag">Full-Stack Development</span>
+            <span class="tag">UI/UX Design</span>
+            <span class="tag">Collaborative Coding</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-form" class="contact-section">
+      <h2>Contact Me</h2>
+      <p class="contact-intro">If you're interested in collaborating or just want to chat tech, feel free to reach out!
+      </p>
+
+
+      <form action="https://formspree.io/f/mldlplew" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer id="contact" class="footer">
+      <div class="icon-links">
+        <a href="mailto:mutisojackson55@gmail.com" class="icon" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/jackson-langat-780942243/" target="_blank" rel="noopener" class="icon"
+          aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Langat1999" target="_blank" rel="noopener" class="icon" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="copyright">
+        &copy; 2025 Jackson Mutiso Langat. All rights reserved.
+      </p>
+    </footer>
+
+    <script>
+      // Update hero background opacity on scroll
+      window.addEventListener('scroll', function () {
+        const hero = document.getElementById('hero-background');
+        const scrollPosition = window.scrollY;
+        const opacity = 1 - Math.min(scrollPosition / 500, 0.9);
+        hero.style.opacity = opacity;
+      });
+
+      // ===== Loader =====
+      window.addEventListener('load', () => {
+        setTimeout(() => {
+          const loader = document.getElementById('loader');
+          if (loader) loader.style.display = '0'; loader.style.visibility = 'hidden';
+        }, 2000);
+      });
+
+
+
+      // ===== Theme Toggle =====
+      document.addEventListener('DOMContentLoaded', () => {
+        const toggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        if (localStorage.getItem('theme') === 'dark') {
+          body.classList.add('dark-mode');
+        }
+
+        if (toggle) {
+          toggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            const theme = body.classList.contains('dark-mode') ? 'dark' : 'light';
+            localStorage.setItem('theme', theme);
+          });
+
+          // ===== Scroll Progress Bar =====
+          window.addEventListener('scroll', () => {
+            const scrollTop = document.documentElement.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercent = (scrollTop / scrollHeight) * 100;
+            const progressBar = document.getElementById('scroll-progress');
+            if (progressBar) progressBar.style.width = scrollPercent + '%';
+          });
+        }
+
+        const navbar = document.querySelector('.navbar');
+
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 80) {
+            navbar.classList.add('scrolled');
+          } else {
+            navbar.classList.remove('scrolled');
+          }
+        });
+
+
+        // ===== More Toggle =====
+        const moreToggle = document.querySelector('.more-toggle');
+        const moreLinks = document.querySelector('.more-links');
+
+        if (moreToggle && moreLinks) {
+          moreToggle.addEventListener('click', () => {
+            moreLinks.classList.toggle('active');
+            moreToggle.textContent = moreLinks.classList.contains('active') ? "Less ▲" : "More ▾";
+          });
+        }
+
+        // ===== Smooth Scroll for Nav Links =====
+        document.querySelectorAll('.nav-link').forEach(link => {
+          link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const targetId = link.getAttribute('href');
+            const targetSection = document.querySelector(targetId);
+
+            if (targetSection) {
+              targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+              document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+              link.classList.add('active');
+            }
+          });
+        });
+
+        // ===== Scroll Animations + Skill Bars =====
+        document.addEventListener('scroll', () => {
+          document.querySelectorAll('.fade-in-scroll').forEach(el => {
+            const rect = el.getBoundingClientRect();
+            if (rect.top <= window.innerHeight - 100) {
+              el.classList.add('visible');
+              if (el.classList.contains('skill-item')) {
+                const progressBar = el.querySelector('.skill-progress');
+                const width = progressBar.getAttribute('data-width');
+                if (progressBar && width) {
+                  setTimeout(() => {
+                    progressBar.style.width = width + '%';
+                  }, 300);
+                }
+              }
+            }
+          });
+        });
+
+        // ===== Timeline Expand Toggle =====
+        document.querySelectorAll('.timeline-item').forEach(item => {
+          item.addEventListener('click', () => {
+            item.classList.toggle('expanded');
+          });
+        });
+
+        // ===== Mobile Menu Toggle =====
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links.main-links');
+
+        if (menuToggle && navLinks) {
+          menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+          });
+        }
+
+        // ===== Initial Fade-ins =====
+        document.querySelectorAll('.fade-in').forEach(el => {
+          el.classList.add('visible');
+        });
+      });
+
+
+      // ===== Hamburger Menu Functionality =====
+      const menuToggle = document.getElementById('menu-toggle-btn');
+      const hamburgerOverlay = document.getElementById('hamburger-overlay');
+      const closeMenu = document.querySelector('.close-menu');
+
+      menuToggle.addEventListener('click', () => {
+        const isExpanded = menuToggle.getAttribute('aria-expanded') === 'true';
+        menuToggle.setAttribute('aria-expanded', !isExpanded);
+        hamburgerOverlay.classList.toggle('active');
+        document.body.classList.toggle('no-scroll');
+      });
+
+      closeMenu.addEventListener('click', () => {
+        menuToggle.setAttribute('aria-expanded', 'false');
+        hamburgerOverlay.classList.remove('active');
+        document.body.classList.remove('no-scroll');
+      });
+
+      hamburgerOverlay.addEventListener('click', (e) => {
+        if (e.target === hamburgerOverlay) {
+          menuToggle.setAttribute('aria-expanded', 'false');
+          hamburgerOverlay.classList.remove('active');
+          document.body.classList.remove('no-scroll');
+        }
+      });
+
+
+      // In your <script> tag
+      window.addEventListener('scroll', function () {
+        const hero = document.getElementById('hero-background');
+        const scrollPosition = window.scrollY;
+        // Adjust the divisor for more or less parallax effect
+        hero.style.backgroundPositionY = -scrollPosition * 0.3 + 'px';
+      });
+    </script>
+
+</body>
+
+</html>
